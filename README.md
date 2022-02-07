@@ -27,19 +27,19 @@ Defines a standard format for storing and sharing business logic. A clear set of
 
 ### What are the benefits?
 
-#### 1. Eliminates technical debt risk
+#### ✔️ Eliminates technical debt risk
 
 >*Refactoring code libraries is often a harmful and time-sensitive issue for businesses, Morphir ensure the standards introduced from input eliminate delays at deployment.*
 
-#### 2. Increases agility
+#### ✔️ Increases agility
 
 >*Adaptability and usability are key concepts of the Morphir framework, business logic can now move with the code, be easily understood and adopted, in an ever-developing eco-system.* 
 
-#### 3. Ensures correctness
+#### ✔️ Ensures correctness
 
 >*Certifying that specified functions behave as intended from input to output is assured through the Morphir library / tool chain.*  
 
-#### 4. Disseminates information through automation
+#### ✔️ Disseminates information through automation
 
 >*Morphir’s automated processing helps disseminate information which otherwise may not be understood or shared at all, a useful tool when brining elements of business logic to conversation outside of its immediate audience (i.e developers).*  
 
