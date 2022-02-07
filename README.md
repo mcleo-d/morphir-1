@@ -53,7 +53,7 @@ Check out [GitHub >>](https://github.com/stephengoldbaum/morphir-examples/tree/m
 
 ---
 
-## Further Reading:
+# Further Reading
 
 | Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
 | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
