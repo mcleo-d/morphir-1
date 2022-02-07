@@ -2,11 +2,6 @@
 
 ## For the first time, business logic can be shared, stored, translated and visualised, all with the reliability of standardisation ensured in the Morphir framework.
 
-<figure class="video_container">
-  <iframe src="https://vimeo.com/672832912" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-
 Morphir is a library of tools that works to capture business logic as data:
 
 ### What is it?
