@@ -4,7 +4,6 @@ import Layout from '@theme/Layout'
 import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
-import HomepageFeatures from '../components/HomepageFeatures'
 
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext()
@@ -29,12 +28,11 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
 	const { siteConfig } = useDocusaurusContext()
+
 	return (
 		<Layout description={'Morhir Home Page'}>
 			<HomepageHeader />
-			<main>
-				<HomepageFeatures />
-			</main>
+			<main>{/* <HomepageFeatures /> */}</main>
 		</Layout>
 	)
 }

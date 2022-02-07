@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'zngly', // Usually your GitHub org/user name.
-  projectName: 'morphir', // Usually your repo name.
+  organizationName: 'zngly',
+  projectName: 'morphir',
 
   presets: [
     [
@@ -64,7 +64,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
