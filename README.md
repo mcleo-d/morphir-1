@@ -54,7 +54,7 @@ Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree
 
 ---
 
-# Further reading:
+# Further Reading:
 
 | Introduction & Background      | Using Morphir | Applicability |
 | :----------- | :----------- | :----------- | 
