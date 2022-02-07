@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmorphir=self.webpackChunkmorphir||[]).push([[272],{2495:function(e){e.exports=JSON.parse('{"permalink":"/morphir/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

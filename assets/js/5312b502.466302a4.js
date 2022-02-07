@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmorphir=self.webpackChunkmorphir||[]).push([[341],{4189:function(s){s.exports=JSON.parse('{"allTagsPath":"/morphir/blog/tags","slug":"/morphir/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/morphir/blog/tags/docusaurus"}')}}]);
