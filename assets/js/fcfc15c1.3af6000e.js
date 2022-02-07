@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmorphir=self.webpackChunkmorphir||[]).push([[102],{527:function(l){l.exports=JSON.parse('{"allTagsPath":"/morphir/blog/tags","slug":"/morphir/blog/tags/hello","name":"hello","count":2,"permalink":"/morphir/blog/tags/hello"}')}}]);
