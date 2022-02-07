@@ -41,7 +41,7 @@ Defines a standard format for storing and sharing business logic. A clear set of
 
 ---
 
-[Morphir Resource Centre](https://finos.zngly.com/)
+[Morphir Resource Centre](https://morphir.zngly.com/)
 
 ---
 
@@ -60,7 +60,7 @@ Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree
 
 | Introduction & Background      | Using Morphir | Applicability |
 | :----------- | :----------- | :----------- | 
-| [Resource Centre](https://finos.zngly.com/)       | [What Makes a Good Model](what-makes-a-good-domain-model)       | [Sharing Business Logic Across Application Boundaries](shared_logic_modeling)       |
+| [Resource Centre](https://morphir.zngly.com/)       | [What Makes a Good Model](what-makes-a-good-domain-model)       | [Sharing Business Logic Across Application Boundaries](shared_logic_modeling)       |
 | [Background](background)   | [Development Automation (Dev Bots)](dev_bots)        | [Regulatory Technology](regtech_modeling)        |
 | [Community](morphir_community)   | [Modeling an Application](application_modeling)        |         |
 | [What's it all about?](whats_it_about)  | [Modeling Decision Tables](https://github.com/finos/morphir-examples/tree/master/src/Morphir/Sample/Rules)        |         |
