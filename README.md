@@ -63,3 +63,53 @@ Check out [GitHub >>](https://github.com/stephengoldbaum/morphir-examples/tree/m
 | [What's it all about?](whats_it_about)                             | [Modeling Decision Tables](https://github.com/finos/morphir-examples/tree/master/src/Morphir/Sample/Rules) |                                                                               |
 | [Working Across Technologies](work_across_languages_and_platforms) | [Modeling for database developers](modeling/modeling-for-database-developers.md)                           |                                                                               |
 | [Why we use Functional Programming?](why_functional_programming)   |                                                                                                            |                                                                               |
+
+## Development setup
+
+Morphir is a collection of tools. Each tool is in its own repo with its own installation instructions. The main development tools, and the best place to get started, are currently in [Morphir Elm](https://github.com/finos/morphir-elm).
+
+## Usage example
+
+Morphir tools can be used to optimize a wide range of development tasks. For example, Morphir can be used to define and automated development of an entire service. The [Morphir Dapr](https://github.com/finos/morphir-dapr) project is example of this.
+
+Another good use of Morphir is to define shared rules than can be used across heterogeneous systems. This can be useful for initiatives like open-source Reg Tech models that are shared across firms. [Morphir LCR](https://github.com/finos/morphir-examples/tree/master/src/Morphir/Sample/LCR) presents a good example of this.
+
+More Morphir examples can be found at [Morphir Examples](https://github.com/finos/morphir-examples/).
+
+## Roadmap
+
+List the roadmap steps; alternatively link the Confluence Wiki page where the project roadmap is published.
+
+1. Enhanced Scala support
+2. Further enhancements for Application modeling with Dapr and Spring Boot.
+3. Support for Microsoft's Bosque language for defining models.
+4. Modeling queries and aggregations across databases and event processing.
+
+## Contributing
+
+1. Fork it (<https://github.com/finos/morphir/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
+4. Commit your changes (`git commit -am 'Add some fooBar'`)
+5. Push to the branch (`git push origin feature/fooBar`)
+6. Create a new Pull Request
+
+_NOTE:_ Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS Clabot tool. Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
+
+_Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)_
+
+## Join the Morphir Slack Channel
+
+Join Morphir on the FINOS Slack by signing up at https://finos-lf.slack.com/. The Morphir channel on Slack is found directly at https://finos-lf.slack.com/messages/morphir/.
+
+[<img src="https://img.shields.io/badge/slack-@finos/morphir-green.svg?logo=slack">](https://finos-lf.slack.com/messages/morphir/)
+
+Reach out to help@finos.org for any issues when joining CSC on the FINOS Slack.
+
+## License
+
+Copyright 2020 FINOS
+
+Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
