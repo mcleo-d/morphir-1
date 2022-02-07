@@ -55,13 +55,13 @@ Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree
 
 ---
 
-<br/>
+<!-- <br/>
 
 # Further Reading
 
 <br/>
 
-<!-- | Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
+| Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
 | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
 | [Resource Centre](https://morphir.zngly.com/)                      | [What Makes a Good Model](what-makes-a-good-domain-model)                                                  | [Sharing Business Logic Across Application Boundaries](shared_logic_modeling) |
 | [Background](background)                                           | [Development Automation (Dev Bots)](dev_bots)                                                              | [Regulatory Technology](regtech_modeling)                                     |
