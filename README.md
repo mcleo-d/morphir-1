@@ -108,7 +108,7 @@ Reach out to help@finos.org for any issues when joining CSC on the FINOS Slack.
 
 ## License
 
-Copyright 2020 FINOS
+Copyright 2022 FINOS
 
 Distributed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
