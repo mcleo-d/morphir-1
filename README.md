@@ -51,8 +51,6 @@ Supporting the development of your business’ needs in an ever-developing ecosy
 
 Check out [GitHub >>](https://github.com/stephengoldbaum/morphir-examples/tree/master/tutorial)
 
----
-
 # Further reading
 
 | Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
