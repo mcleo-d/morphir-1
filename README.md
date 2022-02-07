@@ -2,12 +2,6 @@
 
 ## For the first time, business logic can be shared, stored, translated and visualised, all with the reliability of standardisation ensured in the Morphir framework.
 
----
-
-[Morphir Resource Centre](https://finos.zngly.com/)
-
----
-
 Morphir is a library of tools that works to capture business logic as data:
 
 ### What is it? 
@@ -44,6 +38,10 @@ Defines a standard format for storing and sharing business logic. A clear set of
 >*Morphir’s automated processing helps disseminate information which otherwise may not be understood or shared at all, a useful tool when brining elements of business logic to conversation outside of its immediate audience (i.e developers).*  
 
 <br>
+
+---
+
+[Morphir Resource Centre](https://finos.zngly.com/)
 
 ---
 
