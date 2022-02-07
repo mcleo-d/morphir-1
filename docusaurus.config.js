@@ -8,12 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Morphir',
   tagline: `A multi-language system built on a data format that captures an application's domain model and business logic in a technology agnostic manner`,
-  url: 'https://zngly.github.io/morphir',
-  baseUrl: '/',
+  url: 'https://zngly.github.io',
+  baseUrl: '/morphir/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'morphir', // Usually your GitHub org/user name.
+  organizationName: 'zngly', // Usually your GitHub org/user name.
   projectName: 'morphir', // Usually your repo name.
 
   presets: [
