@@ -45,7 +45,7 @@ Defines a standard format for storing and sharing business logic. A clear set of
 
 ---
 
-## An ecosystem of innovative features.
+## An ecosystem of innovative features
 
 Supporting the development of your business’ needs in an ever-developing ecosystem based on firm standards and the integration of new languages.
 
