@@ -39,8 +39,6 @@ Defines a standard format for storing and sharing business logic. A clear set of
 
 > _Morphir’s automated processing helps disseminate information which otherwise may not be understood or shared at all, a useful tool when brining elements of business logic to conversation outside of its immediate audience (i.e developers)._
 
-<br>
-
 ---
 
 [Morphir Resource Centre](https://morphir.zngly.com/)
@@ -55,11 +53,7 @@ Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree
 
 ---
 
-<br>
-
 # Further Reading:
-
-<br>
 
 | Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
 | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
