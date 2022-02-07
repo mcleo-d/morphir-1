@@ -53,7 +53,7 @@ Check out [GitHub >>](https://github.com/stephengoldbaum/morphir-examples/tree/m
 
 ---
 
-# Further Reading:
+## Further Reading:
 
 | Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
 | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
@@ -64,7 +64,7 @@ Check out [GitHub >>](https://github.com/stephengoldbaum/morphir-examples/tree/m
 | [Working Across Technologies](work_across_languages_and_platforms) | [Modeling for database developers](modeling/modeling-for-database-developers.md)                           |                                                                               |
 | [Why we use Functional Programming?](why_functional_programming)   |                                                                                                            |                                                                               |
 
-## Development setup
+# Development setup
 
 Morphir is a collection of tools. Each tool is in its own repo with its own installation instructions. The main development tools, and the best place to get started, are currently in [Morphir Elm](https://github.com/finos/morphir-elm).
 
