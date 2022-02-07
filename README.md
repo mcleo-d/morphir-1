@@ -41,7 +41,18 @@ Defines a standard format for storing and sharing business logic. A clear set of
 
 #### 4. Disseminates information through automation
 
->*Morphir’s automated processing helps disseminate information which otherwise may not be understood or shared at all, a useful tool when brining elements of business logic to conversation outside of its immediate audience (i.e developers).*
+>*Morphir’s automated processing helps disseminate information which otherwise may not be understood or shared at all, a useful tool when brining elements of business logic to conversation outside of its immediate audience (i.e developers).*  
+
+
+---
+
+## An ecosystem of innovative features.
+
+Supporting the development of your business’ needs in an ever-developing ecosystem based on firm standards and  the integration of new languages.
+
+Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree/master/tutorial)** 
+
+---
 
 
 # Further reading
