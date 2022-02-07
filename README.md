@@ -54,24 +54,17 @@ Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree
 
 ---
 
-
 # Further reading
 
-## Introduction and Background
-* [Resource Centre](https://finos.zngly.com/) 
-* [Background](background)
-* [Community](morphir_community)
-* [What's it all about?](whats_it_about)
-* [Working Across Technologies](work_across_languages_and_platforms)
-* [Why we use Functional Programming?](why_functional_programming)
+| Introduction & Background      | Using Morphir | Applicability |
+| :----------- | :----------- | :----------- | 
+| [Resource Centre](https://finos.zngly.com/)       | [What Makes a Good Model](what-makes-a-good-domain-model)       | [Sharing Business Logic Across Application Boundaries](shared_logic_modeling)       |
+| [Background](background)   | [Development Automation (Dev Bots)](dev_bots)        | [Regulatory Technology](regtech_modeling)        |
+| [Community](morphir_community)   | [Modeling an Application](application_modeling)        |         |
+| [What's it all about?](whats_it_about)  | [Modeling Decision Tables](https://github.com/finos/morphir-examples/tree/master/src/Morphir/Sample/Rules)        |         |
+| [Working Across Technologies](work_across_languages_and_platforms)   | [Modeling for database developers](modeling/modeling-for-database-developers.md)        |         |
+| [Why we use Functional Programming?](why_functional_programming)   |         |         |
 
-## Using Morphir
-* [What Makes a Good Model](what-makes-a-good-domain-model)
-* [Development Automation (Dev Bots)](dev_bots)
-* [Modeling an Application](application_modeling)
-* [Modeling Decision Tables](https://github.com/finos/morphir-examples/tree/master/src/Morphir/Sample/Rules) 
-* [Modeling for database developers](modeling/modeling-for-database-developers.md)
 
-## Applicability
-* [Sharing Business Logic Across Application Boundaries](shared_logic_modeling)
-* [Regulatory Technology](regtech_modeling)
+
+
