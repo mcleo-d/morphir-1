@@ -1,47 +1,71 @@
 ---
 sidebar_position: 1
+title: Introduction
 ---
 
-# Tutorial Intro
+# Morphir
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## For the first time, business logic can be shared, stored, translated and visualised, all with the reliability of standardisation ensured in the Morphir framework
 
-## Getting Started
+Morphir is a library of tools that works to capture business logic as data:
 
-Get started by **creating a new site**.
+### What is it?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+A set of tools for integrating technologies. Morphir is composed of a library of tools that facilitate the digitisation of business logic into multiple different languages & platforms. The Morphir framework is unique too in that facilities elements of automation and conversion that were previously unavailable in the field of finance-tech.
 
-### What you'll need
+### Why is it important?
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Makes business logic portable. Business logic digitised provides distinct advantages: capacity for movement across departments and fields & the ability to be converted to new languages and applications.
 
-## Generate a new site
+### How does it work?
 
-Generate a new Docusaurus site using the **classic template**.
+Defines a standard format for storing and sharing business logic. A clear set of standards and format is in-place from the input/output, allowing for coherent structure.
 
-The classic template will automatically be added to your project after you run the command:
+### What are the benefits?
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+#### ✔️ Eliminates technical debt risk
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+> _Refactoring code libraries is often a harmful and time-sensitive issue for businesses, Morphir ensure the standards introduced from input eliminate delays at deployment._
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+#### ✔️ Increases agility
 
-## Start your site
+> _Adaptability and usability are key concepts of the Morphir framework, business logic can now move with the code, be easily understood and adopted, in an ever-developing eco-system._
 
-Run the development server:
+#### ✔️ Ensures correctness
 
-```bash
-cd my-website
-npm run start
-```
+> _Certifying that specified functions behave as intended from input to output is assured through the Morphir library / tool chain._
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+#### ✔️ Disseminates information through automation
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+> _Morphir’s automated processing helps disseminate information which otherwise may not be understood or shared at all, a useful tool when brining elements of business logic to conversation outside of its immediate audience (i.e developers)._
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+<br/>
+
+---
+
+[Morphir Resource Centre](https://morphir.zngly.com/)
+
+---
+
+## An ecosystem of innovative features
+
+Supporting the development of your business’ needs in an ever-developing ecosystem based on firm standards and the integration of new languages.
+
+Check out **[GITHUB >>](https://github.com/stephengoldbaum/morphir-examples/tree/master/tutorial)**
+
+---
+
+<br/>
+
+# Further Reading
+
+<br/>
+
+| Introduction & Background                                          | Using Morphir                                                                                              | Applicability                                                                 |
+| :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
+| [Resource Centre](https://morphir.zngly.com/)                      | [What Makes a Good Model](what-makes-a-good-domain-model)                                                  | [Sharing Business Logic Across Application Boundaries](shared_logic_modeling) |
+| [Background](background)                                           | [Development Automation (Dev Bots)](dev_bots)                                                              | [Regulatory Technology](regtech_modeling)                                     |
+| [Community](morphir_community)                                     | [Modeling an Application](application_modeling)                                                            |                                                                               |
+| [What's it all about?](whats_it_about)                             | [Modeling Decision Tables](https://github.com/finos/morphir-examples/tree/master/src/Morphir/Sample/Rules) |                                                                               |
+| [Working Across Technologies](work_across_languages_and_platforms) | [Modeling for database developers](modeling/modeling-for-database-developers.md)                           |                                                                               |
+| [Why we use Functional Programming?](why_functional_programming)   |                                                                                                            |                                                                               |

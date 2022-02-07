@@ -1,9 +1,9 @@
 import React from 'react'
 import clsx from 'clsx'
 import Layout from '@theme/Layout'
-import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
+import { Link } from '@docusaurus/router'
 
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext()
@@ -11,28 +11,35 @@ function HomepageHeader() {
 	return (
 		<header
 			className={clsx('hero hero--primary', styles.heroBanner)}
-			style={{ backgroundImage: `url(img/header.png)` }}
+			style={{
+				backgroundImage: `url(img/newHeader.png)`,
+				backgroundColor: 'unset',
+				backgroundRepeat: 'no-repeat',
+				backgroundPosition: 'center',
+				height: '400px',
+			}}
 		>
 			<div className='container'>
 				<h1 className='hero__title'>{siteConfig.title}</h1>
 				<p className='hero__subtitle'>{siteConfig.tagline}</p>
-				{/* <div className={styles.buttons}>
-					<Link className='button button--secondary button--lg' to='/docs/intro'>
-						Docusaurus Tutorial - 5min ⏱️
-					</Link>
-				</div> */}
 			</div>
 		</header>
 	)
 }
 
 export default function Home(): JSX.Element {
-	const { siteConfig } = useDocusaurusContext()
-
 	return (
 		<Layout description={'Morhir Home Page'}>
 			<HomepageHeader />
-			<main>{/* <HomepageFeatures /> */}</main>
+			<main>
+				<div className={styles.buttons}>
+					<div className='container text--center padding--lg'>
+						<Link to={'docs/intro'}>
+							Get To Know <code>Morphir</code>
+						</Link>
+					</div>
+				</div>
+			</main>
 		</Layout>
 	)
 }
