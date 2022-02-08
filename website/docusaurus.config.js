@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'zngly',
   projectName: 'morphir',
-
   presets: [
     [
       'classic',
@@ -37,7 +36,7 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -50,7 +49,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'index',
+            docId: 'intro',
             position: 'left',
             label: 'Tutorial',
           },
@@ -70,7 +69,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/index',
+                to: '/docs/intro',
               },
             ],
           },
