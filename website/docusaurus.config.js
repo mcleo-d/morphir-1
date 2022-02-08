@@ -40,7 +40,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/logo_white.png',
+      image: 'img/logo_220.png',
       navbar: {
         // title: '',
         logo: {
