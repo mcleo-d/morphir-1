@@ -4,6 +4,8 @@ import Layout from '@theme/Layout'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import { Link } from '@docusaurus/router'
+import TopPanel from '../components/top-panel';
+import { topPanel } from '../components/top-panel-config';
 
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext()
@@ -39,6 +41,17 @@ export default function Home(): JSX.Element {
 						</Link>
 					</div>
 				</div>
+				{topPanel && topPanel.length && (
+		        	<section className={styles.topPanels}>
+						<div className="container">
+							<div className="row">
+								{topPanel.map((props, idx) => (
+									<TopPanel key={idx} {...props} />
+			  					))}
+							</div>
+		  				</div>
+					</section>
+				)}
 			</main>
 		</Layout>
 	)
