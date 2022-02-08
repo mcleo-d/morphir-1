@@ -33,5 +33,3 @@ We don't need Elm, but it can help with other program tasks. If you want to inst
 npm install -g elm
 elm init
 ```
-
-[Prev](../intro.md) | [Next](./morphir-tutorial.md)

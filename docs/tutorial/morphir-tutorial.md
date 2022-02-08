@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Tutorial
+title: Morphir Tutorial
 ---
 
 # Morphir Tutorial
@@ -110,8 +110,3 @@ We want to get back to the business logic being the main asset of the applicatio
 ![surfboard Rentals](./ideal.png)
 
 So with that out of the way, let's dive in...
-
--   [Install Morphir with a new project](install.md)
--   [Step 1: First Logic Model](step_1_first_logic/readme.md)
-
-[Next](install.md)
