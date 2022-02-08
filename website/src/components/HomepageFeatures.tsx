@@ -1,7 +1,7 @@
 import useBaseUrl from '@docusaurus/useBaseUrl'
 import React from 'react'
-import clsx from 'clsx'
 import styles from './HomepageFeatures.module.css'
+import Link from '@docusaurus/Link'
 
 type FeatureItem = {
 	title: string | JSX.Element
@@ -119,26 +119,70 @@ const FeatureList: FeatureItem[] = [
 		column: 6,
 		description: <>Library of content where you can watch, browse, and read all things morphir related</>,
 	},
+	{
+		title: 'Further Reading',
+		description: (
+			<div className='container'>
+				<section className='row text--center'>
+					<div className='col col--4'>
+						<h6>Introduction & Background</h6>
+						<div className={styles.furtherReading}>
+							<Link to={'http://morphir.finos.org/why_functional_programming'}>Why Functional Programming?</Link>
+							<Link to={'http://morphir.finos.org/whats_it_about'}>What's it all about?</Link>
+							<Link to={'http://morphir.finos.org/background'}>Background</Link>
+							<Link to={'http://morphir.finos.org/morphir_community'}>Community</Link>
+							<Link to={'https://morphir.zngly.com/'}>Resource Centre</Link>
+						</div>
+					</div>
+					<div className='col col--4'>
+						<h6>Using Morphir</h6>
+						<div className={styles.furtherReading}>
+							<Link to={'http://morphir.finos.org/what-makes-a-good-domain-model'}>What Makes a Good Model</Link>
+							<Link to={'http://morphir.finos.org/dev_bots'}>Development Automation (Dev Bots)</Link>
+							<Link to={'http://morphir.finos.org/application_modeling'}>Modeling an Application</Link>
+							<Link to={'https://github.com/finos/morphir-examples/tree/main/src/Morphir/Sample/Rules'}>
+								Modeling Decision Tables
+							</Link>
+							<Link to={'http://morphir.finos.org/modeling/modeling-for-database-developers.html'}>
+								Modeling for database developers
+							</Link>
+						</div>
+					</div>
+					<div className='col col--4'>
+						<h6>Applicability</h6>
+						<div className={styles.furtherReading}>
+							<Link to={'http://morphir.finos.org/shared_logic_modeling'}>
+								Sharing Business Logic Across Application Boundaries
+							</Link>
+							<Link to={'http://morphir.finos.org/regtech_modeling'}>Regulatory Technology</Link>
+						</div>
+					</div>
+				</section>
+			</div>
+		),
+	},
 ]
 
 function Feature({ title, description, ...props }: FeatureItem) {
+	let border = {}
+	if (props?.brTop) border = { borderTop: '1px solid var(--ifm-color-primary-darkest)', paddingTop: '1em' }
+	if (props?.brBottom)
+		border = { ...border, borderBottom: '1px solid var(--ifm-color-primary-darkest)', marginBottom: '1em' }
 	return (
-		<div className={clsx(`col col--${props?.column ? props.column : 12}`)}>
-			{props?.brTop && <br />}
-			{props?.image && (
-				<div className='text--center'>
+		<div className={`col col--${props?.column ? props.column : 12}`}>
+			<div className='text--center' style={{ ...border }}>
+				{props?.image && (
 					<img
 						className={styles.featureSvg}
 						alt={typeof title === 'string' ? title : title.props.children}
 						src={useBaseUrl(props.image)}
 					/>
+				)}
+				<div className=' padding-horiz--md'>
+					<h3>{title}</h3>
+					<p>{description}</p>
 				</div>
-			)}
-			<div className='text--center padding-horiz--md'>
-				<h3>{title}</h3>
-				<p>{description}</p>
 			</div>
-			{props?.brBottom && <br />}
 		</div>
 	)
 }

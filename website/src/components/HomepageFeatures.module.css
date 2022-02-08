@@ -10,6 +10,11 @@
 	width: 200px;
 }
 
-.features br {
-	border: 1px solid black;
+.divider {
+	border: 100000px solid #000 !important;
+}
+
+.furtherReading {
+	display: flex;
+	flex-direction: column;
 }
