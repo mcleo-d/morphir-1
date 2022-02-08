@@ -4,6 +4,7 @@ import Layout from '@theme/Layout'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import { Link } from '@docusaurus/router'
+import HomepageFeatures from '../components/HomepageFeatures'
 
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext()
@@ -39,6 +40,8 @@ export default function Home(): JSX.Element {
 						</Link>
 					</div>
 				</div>
+
+				<HomepageFeatures />
 			</main>
 		</Layout>
 	)
