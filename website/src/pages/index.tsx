@@ -12,7 +12,7 @@ function HomepageHeader() {
 		<header
 			className={clsx('hero hero--primary', styles.heroBanner)}
 			style={{
-				backgroundImage: `url(img/newHeader.png)`,
+				backgroundImage: `url(img/wide_header.png)`,
 				backgroundColor: 'unset',
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
