@@ -115,7 +115,11 @@ const FeatureList: FeatureItem[] = [
 		),
 	},
 	{
-		title: <a href='https://morphir.zngly.com/'>Morphir Resource Centre</a>,
+		title: (
+			<a href='https://morphir.zngly.com/' target='_blank'>
+				Morphir Resource Centre
+			</a>
+		),
 		column: 6,
 		description: <>Library of content where you can watch, browse, and read all things morphir related</>,
 	},
