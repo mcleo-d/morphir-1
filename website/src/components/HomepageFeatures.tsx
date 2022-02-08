@@ -121,6 +121,7 @@ const FeatureList: FeatureItem[] = [
 	},
 	{
 		title: 'Further Reading',
+		brBottom: true,
 		description: (
 			<div className='container'>
 				<section className='row text--center'>
@@ -170,7 +171,7 @@ function Feature({ title, description, ...props }: FeatureItem) {
 		border = { ...border, borderBottom: '1px solid var(--ifm-color-primary-darkest)', marginBottom: '1em' }
 	return (
 		<div className={`col col--${props?.column ? props.column : 12}`}>
-			<div className='text--center' style={{ ...border }}>
+			<div className='text--center padding--lg' style={{ ...border }}>
 				{props?.image && (
 					<img
 						className={styles.featureSvg}
