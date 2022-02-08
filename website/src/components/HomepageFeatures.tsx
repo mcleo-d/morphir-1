@@ -90,7 +90,7 @@ const FeatureList: FeatureItem[] = [
 							),
 						},
 					].map(({ title, description }) => (
-						<div className='col col--6'>
+						<div className='text--left col col--6'>
 							<h4>{title}</h4>
 							<p>{description}</p>
 						</div>
@@ -121,7 +121,6 @@ const FeatureList: FeatureItem[] = [
 	},
 	{
 		title: 'Further Reading',
-		brBottom: true,
 		description: (
 			<div className='container'>
 				<section className='row text--center'>
@@ -179,7 +178,7 @@ function Feature({ title, description, ...props }: FeatureItem) {
 						src={useBaseUrl(props.image)}
 					/>
 				)}
-				<div className=' padding-horiz--md'>
+				<div className='padding-horiz--md'>
 					<h3>{title}</h3>
 					<p>{description}</p>
 				</div>

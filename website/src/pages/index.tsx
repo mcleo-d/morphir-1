@@ -21,7 +21,7 @@ function HomepageHeader() {
 			}}
 		>
 			<div className='container'>
-				<h1 className='hero__title'>{siteConfig.title}</h1>
+				<img src='img/logo_white.png' alt='header logo' style={{ width: '500px' }} />
 				<p className='hero__subtitle'>{siteConfig.tagline}</p>
 
 				<div className={styles.buttons}>
