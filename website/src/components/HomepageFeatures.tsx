@@ -4,9 +4,12 @@ import clsx from 'clsx'
 import styles from './HomepageFeatures.module.css'
 
 type FeatureItem = {
-	title: string
-	image?: string
+	title: string | JSX.Element
 	description: JSX.Element
+	column?: 3 | 4 | 6 | 12
+	image?: string
+	brTop?: boolean
+	brBottom?: boolean
 }
 
 const FeatureList: FeatureItem[] = [
@@ -23,6 +26,7 @@ const FeatureList: FeatureItem[] = [
 	},
 	{
 		title: 'Why is it important?',
+		column: 6,
 		description: (
 			<>
 				Makes business logic portable. Business logic digitised provides distinct advantages: capacity for movement
@@ -32,6 +36,7 @@ const FeatureList: FeatureItem[] = [
 	},
 	{
 		title: 'How does it work?',
+		column: 6,
 		description: (
 			<>
 				Defines a standard format for storing and sharing business logic. A clear set of standards and format is
@@ -39,20 +44,101 @@ const FeatureList: FeatureItem[] = [
 			</>
 		),
 	},
+	{
+		title: 'What are the benefits?',
+		brTop: true,
+		brBottom: true,
+		description: (
+			<div className='container'>
+				<section className='row text--center'>
+					{[
+						{
+							title: '✔️ Eliminates technical debt risk',
+							description: (
+								<>
+									Refactoring code libraries is often a harmful and time-sensitive issue for businesses, Morphir ensure
+									the standards introduced from input eliminate delays at deployment.
+								</>
+							),
+						},
+						{
+							title: '✔️ Increases agility',
+							description: (
+								<>
+									Adaptability and usability are key concepts of the Morphir framework, business logic can now move with
+									the code, be easily understood and adopted, in an ever-developing eco-system.
+								</>
+							),
+						},
+						{
+							title: '✔️ Ensures correctness',
+							description: (
+								<>
+									Certifying that specified functions behave as intended from input to output is assured through the
+									Morphir library / tool chain.
+								</>
+							),
+						},
+						{
+							title: '✔️ Disseminates information through automation',
+							description: (
+								<>
+									Morphir’s automated processing helps disseminate information which otherwise may not be understood or
+									shared at all, a useful tool when brining elements of business logic to conversation outside of its
+									immediate audience (i.e developers).
+								</>
+							),
+						},
+					].map(({ title, description }) => (
+						<div className='col col--6'>
+							<h4>{title}</h4>
+							<p>{description}</p>
+						</div>
+					))}
+				</section>
+			</div>
+		),
+	},
+	{
+		title: 'An ecosystem of innovative features.',
+		column: 6,
+		description: (
+			<>
+				<p>
+					Supporting the development of your business’ needs in an ever-developing ecosystem based on firm standards and
+					the integration of new languages.
+				</p>
+				<p>
+					Check out <a href='https://github.com/stephengoldbaum/morphir-examples/tree/master/tutorial'>GitHub</a>
+				</p>
+			</>
+		),
+	},
+	{
+		title: <a href='https://morphir.zngly.com/'>Morphir Resource Centre</a>,
+		column: 6,
+		description: <>Library of content where you can watch, browse, and read all things morphir related</>,
+	},
 ]
 
 function Feature({ title, description, ...props }: FeatureItem) {
 	return (
-		<div className={clsx('col col--12')}>
+		<div className={clsx(`col col--${props?.column ? props.column : 12}`)}>
+			{props?.brTop && <br />}
 			{props?.image && (
 				<div className='text--center'>
-					<img className={styles.featureSvg} alt={title} src={useBaseUrl(props.image)} />
+					<img
+						className={styles.featureSvg}
+						alt={typeof title === 'string' ? title : title.props.children}
+						src={useBaseUrl(props.image)}
+					/>
 				</div>
 			)}
 			<div className='text--center padding-horiz--md'>
 				<h3>{title}</h3>
 				<p>{description}</p>
 			</div>
+			{props?.brBottom && <br />}
 		</div>
 	)
 }

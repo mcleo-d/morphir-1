@@ -23,6 +23,12 @@ function HomepageHeader() {
 			<div className='container'>
 				<h1 className='hero__title'>{siteConfig.title}</h1>
 				<p className='hero__subtitle'>{siteConfig.tagline}</p>
+
+				<div className={styles.buttons}>
+					<Link to={'docs/intro'}>
+						<button className='button'>Get To Know Morphir</button>
+					</Link>
+				</div>
 			</div>
 		</header>
 	)
@@ -33,14 +39,6 @@ export default function Home(): JSX.Element {
 		<Layout description={'Morhir Home Page'}>
 			<HomepageHeader />
 			<main>
-				<div className={styles.buttons}>
-					<div className='container text--center padding--lg'>
-						<Link to={'docs/intro'}>
-							Get To Know <code>Morphir</code>
-						</Link>
-					</div>
-				</div>
-
 				<HomepageFeatures />
 			</main>
 		</Layout>
