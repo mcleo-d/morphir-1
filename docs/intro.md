@@ -66,6 +66,7 @@ In Morphir's data format this would translate into something like this:
 ];
 ```
 
+<!--
 # Further reading
 
 ## Introduction and Background
@@ -87,4 +88,4 @@ In Morphir's data format this would translate into something like this:
 ## Applicability
 
 -   [Sharing Business Logic Across Application Boundaries](shared_logic_modeling)
--   [Regulatory Technology](regtech_modeling)
+-   [Regulatory Technology](regtech_modeling) -->
