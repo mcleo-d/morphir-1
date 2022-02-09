@@ -4,6 +4,7 @@ import Layout from '@theme/Layout'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import styles from './index.module.css'
 import { Link } from '@docusaurus/router'
+import HomepageFeatures from '../components/HomepageFeatures'
 
 function HomepageHeader() {
 	const { siteConfig } = useDocusaurusContext()
@@ -12,7 +13,7 @@ function HomepageHeader() {
 		<header
 			className={clsx('hero hero--primary', styles.heroBanner)}
 			style={{
-				backgroundImage: `url(img/newHeader.png)`,
+				backgroundImage: `url(img/wide_header.png)`,
 				backgroundColor: 'unset',
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
@@ -20,8 +21,14 @@ function HomepageHeader() {
 			}}
 		>
 			<div className='container'>
-				<h1 className='hero__title'>{siteConfig.title}</h1>
+				<img src='img/logo_white.png' alt='header logo' style={{ width: '500px' }} />
 				<p className='hero__subtitle'>{siteConfig.tagline}</p>
+
+				<div className={styles.buttons}>
+					<Link className='button button--secondary' to={'docs/intro'}>
+						Get To Know Morphir
+					</Link>
+				</div>
 			</div>
 		</header>
 	)
@@ -29,16 +36,10 @@ function HomepageHeader() {
 
 export default function Home(): JSX.Element {
 	return (
-		<Layout description={'Morhir Home Page'}>
+		<Layout description={'Morphir Home Page'}>
 			<HomepageHeader />
 			<main>
-				<div className={styles.buttons}>
-					<div className='container text--center padding--lg'>
-						<Link to={'docs/intro'}>
-							Get To Know <code>Morphir</code>
-						</Link>
-					</div>
-				</div>
+				<HomepageFeatures />
 			</main>
 		</Layout>
 	)

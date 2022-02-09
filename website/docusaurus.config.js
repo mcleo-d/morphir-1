@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'zngly',
   projectName: 'morphir',
-
   presets: [
     [
       'classic',
@@ -24,14 +23,12 @@ const config = {
         docs: {
           path: '../docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/zngly/morphir/tree/main/docs/',
         },
         blog: {
+          path: '../blog',
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/zngly/morphir/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -39,15 +36,16 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/logo.png',
       navbar: {
-        title: '',
+        // title: '',
         logo: {
           alt: 'Morphir Logo',
-          src: 'img/logo.png',
+          src: 'img/logo_wide.png',
         },
         items: [
           {
