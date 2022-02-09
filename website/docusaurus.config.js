@@ -66,46 +66,54 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'FINOS Initiatives',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'FINOS Projects on GitHub',
+                to: 'https://github.com/finos',
+              },
+              {
+                label: 'Engage the FINOS Community',
+                to: 'https://www.finos.org/engage-with-our-community',
+              },
+              {
+                label: 'FINOS News and Events',
+                to: 'https://www.finos.org/news-and-events',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Quick Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Browse Morphir Good First Issues',
+                href: 'https://github.com/finos/morphir/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Ask a Morphir Question',
+                href: 'https://github.com/finos/morphir/issues/new?assignees=&labels=&template=Support_question.md',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'FINOS Community',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'FINOS Community Handbook',
+                to: 'https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/zngly/morphir',
+                label: 'FINOS Community Governance',
+                href: 'https://github.com/finos/community/tree/master/governance',
+              },
+              {
+                label: 'FINOS on LinkedIn',
+                href: 'https://www.linkedin.com/company/finosfoundation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Morphir, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} - Morphir - FINOS - The Fintech Open Source Foundation`,
       },
       prism: {
         theme: lightCodeTheme,
