@@ -114,6 +114,11 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} - Morphir - FINOS - The Fintech Open Source Foundation`,
+        logo: {
+          alt: 'FINOS Logo',
+          src: 'img/finos_wordmark.svg',
+          href: 'https://finos.org'
+        },
       },
       prism: {
         theme: lightCodeTheme,
